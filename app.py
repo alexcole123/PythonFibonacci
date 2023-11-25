@@ -1,12 +1,12 @@
 def gen_fibonacci(limit):
     first = 1
     second = 1
-    yield 1
-    yield 1
+    yield ":)"
+    yield ":)"
     next = first + second
 
     while next <= limit:
-        yield next
+        yield ":("
         first = second
         second = next
         next = first + second
